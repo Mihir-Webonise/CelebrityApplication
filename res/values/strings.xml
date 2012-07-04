@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AndroidTwitterSample!</string>
+    <string name="app_name">CelebrityApplication</string>
+    <string name="splash_screen">Loading Celebrity App</string>
+</resources>
