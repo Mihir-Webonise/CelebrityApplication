@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bkgrnd"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewUsingTwitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0000ff"
+        android:layout_marginLeft="20dip"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textViewUsingFacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0000ff"
+        android:layout_marginLeft="20dip"
+        android:text="" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textViewTwitterLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0000ff"
+            android:layout_marginLeft="20dip"
+            android:text="@string/tgl_btn_twitter" />
+
+        <ToggleButton
+            android:id="@+id/toggleButtonTwitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:textColor="#0000ff"
+            android:text="@string/tgl_btn_twitter" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textViewFacebookLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0000ff"
+            android:layout_marginLeft="20dip"
+            android:text="@string/tgl_btn_facebook" />
+
+        <ToggleButton
+            android:id="@+id/toggleButtonFacebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0000ff"
+            android:text="@string/tgl_btn_facebook" />
+        
+    </LinearLayout>
+
+   <!--  <Button
+        android:id="@+id/btn_clear_twitter_credentials"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="@string/btn_clear_twitter_credentials" />
+    
+    <Button
+        android:id="@+id/btn_clear_facebook_credentials"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="@string/btn_clear_facebook_credentials" /> -->
+    
+    <Button
+        android:id="@+id/btnTwitterLogin"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="100dip"
+        android:layout_height="wrap_content"
+        android:textColor="#0000ff"        
+        android:text="@string/btntwitterlogin" />
+    
+    <Button
+        android:id="@+id/btnFacebookLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0000ff"        
+        android:text="@string/btnfacebooklogin" />
+    
+</LinearLayout>

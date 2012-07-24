@@ -17,7 +17,8 @@
         android:id="@+id/imageView1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/arai"
+        android:src="@drawable/arai13"
+        android:contentDescription="@string/splash_screen"
         android:layout_marginTop="10dp" />
 
     <ProgressBar

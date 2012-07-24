@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/arai_med"
+    android:orientation="vertical"
+    android:textColor="#0000ff"
+    android:textStyle="bold" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:textColor="#0000ff"
+        android:textStyle="bold" >
+
+        <Button
+            android:id="@+id/btnTwitterFeeds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_twitter_feeds"
+            android:layout_marginLeft="43dip"
+            android:textColor="#ff0000" />
+
+        <Button
+            android:id="@+id/btnFacebookFeeds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_facebook_feeds"
+            android:textColor="#ff0000" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0000ff"
+        android:textStyle="bold" />
+
+</LinearLayout>

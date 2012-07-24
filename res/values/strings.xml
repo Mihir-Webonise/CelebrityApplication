@@ -1,6 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, AndroidTwitterSample!</string>
+    <string name="hello">Hello World, CelebrityApplication!</string>
     <string name="app_name">CelebrityApplication</string>
     <string name="splash_screen">Loading Celebrity App</string>
+    <string name="intro_image">Introduction image</string>
+    <string name="full_image">Full sized image</string>
+    <string name="login_image">Login display image</string>
+    <string name="txt_view_login">Login here: </string>
+    <string name="btn_twitter_login">Twitter Login</string>
+    <string name="btn_facebook_login">Facebook Login</string>
+    <string name="btn_go_to_app">Go to App</string>
+    <string name="btn_clear_credentials">Clear Credentials</string>
+    <string name="btn_clear_cache">Clear Cache</string>
+    <string name="btn_clear_facebook_credentials">Clear Facebook Credentials</string>
+    <string name="btn_clear_twitter_credentials">Clear Twitter Credentials</string>
+    <string name="btnfacebooklogin">Provide Facebook Credentials</string>
+    <string name="btntwitterlogin">Provide Twitter Credentials</string>
+    <string name="btn_home">Home</string>
+    <string name="btn_twitter_feeds">Twitter Feeds</string>
+    <string name="btn_facebook_feeds">Facebook Feeds</string>
+    <string name="tgl_btn_twitter">Twitter Toggle Button : </string>
+    <string name="tgl_btn_facebook">Facebook Toggle Button : </string>
+    <string name="about_aish">Aishwarya Rai is an Indian film actress.
+                      She worked as a model before starting her
+                      acting career, and ultimately won the
+                      Miss World pageant in 1994.
+                      Rai has featured in films in various
+                      languages including Hindi, English, Tamil,
+                      Telugu, and Bengali. Often cited by the
+                      media as the \&apos;most beautiful woman
+                      in the world\&apos;, Rai made her acting
+                      debut with Mani Ratnam\&apos;s Tamil film
+                      Iruvar (1997), and had her first commercial
+                      success in Jeans (1998). She found success 
+                      in Bollywood with Sanjay Leela Bhansali\&apos;s 
+                      Hum Dil De Chuke Sanam (1999) and 
+                      Devdas (2002) and eventually won two
+                      Filmfare Awards in the Best Actress category. 
+                      After a series of unsuccessful films during
+                      2003–2005, she appeared in the blockbuster
+                      action thriller Dhoom 2 (2006) and
+                      subsequently featured in such films as
+                      Guru (2007), Jodhaa Akbar (2008),
+                      and Enthiran (2010). She gained critical
+                      acclaim for her performances in offbeat,
+                      independent films such as Chokher Bali (2003),
+                      Raincoat (2004), and Provoked (2007).
+                      Rai has thus established herself as one of the
+                      leading contemporary actresses of Indian cinema</string>
 </resources>

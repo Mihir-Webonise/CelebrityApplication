@@ -1,24 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    >
+    android:orientation="vertical" >
 
-	<TextView android:id="@+id/login_status"
-	             android:layout_width="wrap_content"
-	             android:layout_height="wrap_content"
-	             android:text=""
-	    android:textColor="#FFFFFF"/>
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:contentDescription="@string/login_image"
+        android:src="@drawable/arai10" />
 
-	    <Button android:id="@+id/btn_tweet"
-	            android:layout_width="wrap_content"
-	            android:layout_height="wrap_content"
-	            android:text="Twitter Login"/>
+    <TextView
+        android:id="@+id/txtviewlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:text="@string/txt_view_login"
+        android:textColor="#FFFFFF" />
 
-	    <Button android:id="@+id/btn_clear_credentials"
-	            android:layout_width="wrap_content"
-	            android:layout_height="wrap_content"
-	            android:text="Clear Credentials"/>	 
-	            
+    <Button
+        android:id="@+id/btn_tweet"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_twitter_login" />
+
+    <Button
+        android:id="@+id/btnfbconnector"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_facebook_login" />
+
 </LinearLayout>
